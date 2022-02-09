@@ -39,9 +39,7 @@
   }
 }
 @media screen and (max-width: 800px) {
-  .home-cards {
-    flex-direction: column;
-  }
+  .home-cards,
   .home-card-container {
     flex-direction: column;
   }
