@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FashiFy | Product List</title>
+
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="productlist-container">
+      <nav class="navigation">
+        <div class="nav-left">
+          <div class="nav-logo-container">
+            <a href="">
+              <img
+                class="hero-logo"
+                src="../src/logo/Fashify Transparent pr.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+        <div class="nav-mid nav-desktop">
+          <input
+            placeholder="search"
+            class="nav-search brd-rd-semi-sq nav-text-input"
+            type="text"
+          />
+        </div>
+        <div class="nav-right">
+          <ul class="nav-links nav-desktop">
+            <li class="nav-link-item">
+              <a href="">
+                <div class="badge-container">
+                  <div class="badge-icon">
+                    <span class="material-icons-outlined">
+                      favorite_border
+                    </span>
+                  </div>
+                  <div class="badge-number background-online">12</div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-link-item">
+              <a href=""
+                ><div class="badge-container">
+                  <div class="badge-icon">
+                    <span class="material-icons-outlined"> shopping_cart </span>
+                  </div>
+                  <div class="badge-number background-online">12</div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-link-item">
+              <a class="btn outlined-primary" href="">Login</a>
+            </li>
+          </ul>
+          <ul class="nav-links nav-mobile">
+            <li class="nav-link-item drawar-menu-btn">
+              <a><i class="fas fa-bars font-wt-bold text-lg"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="productlist-content">
+        <aside class="productlist-aside nav-desktop">
+          <div class="productlist-aside-header">
+            <p class="font-wt-bold">Filters</p>
+            <p>Clear</p>
+          </div>
+          <div class="productlist-aside-item">
+            <p class="font-wt-bold">Price</p>
+            <div class="productlist-slider-label">
+              <p class="text-secondary-color">50</p>
+              <p class="text-secondary-color">150</p>
+              <p class="text-secondary-color">200</p>
+            </div>
+            <div class="productlist-input-container">
+
+              <input
+                type="range"
+                name="rangeInput"
+                class="slider"
+                min="0"
+                max="100"
+              />
+            </div>
+          </div>
+          <div class="productlist-aside-item">
+            <p class="font-wt-bold">Category</p>
+            <div class="productlist-input-container">
+              <div class="productlist-input-item-hz">
+                <input
+                  type="checkbox"
+                  name="category-checkbox"
+                  id="men-checkbox"
+                  value="men"
+                />
+                <label for="men-checkbox">Men</label>
+              </div>
+              <div class="productlist-input-item-hz">
+                <input
+                  type="checkbox"
+                  name="category-checkbox"
+                  id="women-checkbox"
+                  value="women"
+                />
+                <label for="women-checkbox">Women</label>
+              </div>
+              <div class="productlist-input-item-hz">
+                <input
+                  type="checkbox"
+                  name="category-checkbox"
+                  id="kids-checkbox"
+                  value="kids"
+                />
+                <label for="kids-checkbox">Kids</label>
+              </div>
+            </div>
+          </div>
+          <div class="productlist-aside-item">
+            <p class="font-wt-bold">Rating</p>
+            <div class="productlist-input-container">
+              <div class="productlist-input-item-hz">
+                <input
+                  type="radio"
+                  name="rating-radio"
+                  id="4star-radio"
+                  value="4star"
+                />
+                <label for="4star-radio">4 stars &#38; above</label>
+              </div>
+              <div class="productlist-input-item-hz">
+                <input
+                  type="radio"
+                  name="rating-radio"
+                  id="3star-radio"
+                  value="3star"
+                />
+                <label for="3star-radio">3 stars &#38; above</label>
+              </div>
+              <div class="productlist-input-item-hz">
+                <input
+                  type="radio"
+                  name="rating-radio"
+                  id="2star-radio"
+                  value="2star"
+                />
+                <label for="2star-radio">2 stars &#38; above</label>
+              </div>
+              <div class="productlist-input-item-hz">
+                <input
+                  type="radio"
+                  name="rating-radio"
+                  id="1star-radio"
+                  value="1star"
+                />
+                <label for="1star-radio">1 stars &#38; above</label>
+              </div>
+            </div>
+          </div>
+          <div class="productlist-aside-item">
+            <p class="font-wt-bold">Sort by</p>
+            <div class="productlist-input-container">
+              <div class="productlist-input-item-hz">
+                <input
+                  type="radio"
+                  name="sortby-radio"
+                  id="lowtohigh-radio"
+                  value="lowtohigh"
+                />
+                <label for="lowtohigh-radio">price - Low to High</label>
+              </div>
+              <div class="productlist-input-item-hz">
+                <input
+                  type="radio"
+                  name="sortby-radio"
+                  id="hightolow-radio"
+                  value="hightolow"
+                />
+                <label for="hightolow-radio">price - High to Low</label>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <main class="productlist-main">
+          <div class="productlist-main-container">
+            <div class="productlist-main-header">
+              <p class="font-wt-bold">Showing All Products</p>
+              <p>(Showing 20 products)</p>
+            </div>
+            <div class="productlist-main-card-container">
+              <div class="card-container card-container-shadow productlist-card">
+                <div class="card-img-container">
+                  <img
+                    class="card-img productlist-card-img"
+                    src="https://picsum.photos/300/400"
+                    alt="card image"
+                  />
+                  <button class="card-img-tag-btn">
+                    <span class="material-icons">favorite_border</span>
+                  </button>
+                </div>
+                <div class="card-content">
+                  <div class="card-text">
+                    <div>Men Premium Jacket</div>
+                    <div class="card-subtitle">₹2000</div>
+                  </div>
+                  <div class="card-footer-elements">
+                    <button class="btn btn-primary background-primary">
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container card-container-shadow productlist-card">
+                <div class="card-img-container">
+                  <img
+                    class="card-img productlist-card-img"
+                    src="https://picsum.photos/300/400"
+                    alt="card image"
+                  />
+                  <button class="card-img-tag-btn">
+                    <span class="material-icons">favorite_border</span>
+                  </button>
+                </div>
+                <div class="card-content">
+                  <div class="card-text">
+                    <div>Men Premium Jacket</div>
+                    <div class="card-subtitle">₹2000</div>
+                  </div>
+                  <div class="card-footer-elements">
+                    <button class="btn btn-primary background-primary">
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container card-container-shadow productlist-card">
+                <div class="card-img-container">
+                  <img
+                    class="card-img productlist-card-img"
+                    src="https://picsum.photos/300/400"
+                    alt="card image"
+                  />
+                  <button class="card-img-tag-btn">
+                    <span class="material-icons">favorite_border</span>
+                  </button>
+                </div>
+                <div class="card-content">
+                  <div class="card-text">
+                    <div>Men Premium Jacket</div>
+                    <div class="card-subtitle">₹2000</div>
+                  </div>
+                  <div class="card-footer-elements">
+                    <button class="btn btn-primary background-primary">
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container card-container-shadow productlist-card">
+                <div class="card-img-container">
+                  <img
+                    class="card-img productlist-card-img"
+                    src="https://picsum.photos/300/400"
+                    alt="card image"
+                  />
+                  <button class="card-img-tag-btn">
+                    <span class="material-icons">favorite_border</span>
+                  </button>
+                </div>
+                <div class="card-content">
+                  <div class="card-text">
+                    <div>Men Premium Jacket</div>
+                    <div class="card-subtitle">₹2000</div>
+                  </div>
+                  <div class="card-footer-elements">
+                    <button class="btn btn-primary background-primary">
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container card-container-shadow productlist-card">
+                <div class="card-img-container">
+                  <img
+                    class="card-img productlist-card-img"
+                    src="https://picsum.photos/300/400"
+                    alt="card image"
+                  />
+                  <button class="card-img-tag-btn">
+                    <span class="material-icons">favorite_border</span>
+                  </button>
+                </div>
+                <div class="card-content">
+                  <div class="card-text">
+                    <div>Men Premium Jacket</div>
+                    <div class="card-subtitle">₹2000</div>
+                  </div>
+                  <div class="card-footer-elements">
+                    <button class="btn btn-primary background-primary">
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container card-container-shadow productlist-card">
+                <div class="card-img-container">
+                  <img
+                    class="card-img productlist-card-img"
+                    src="https://picsum.photos/300/400"
+                    alt="card image"
+                  />
+                  <button class="card-img-tag-btn">
+                    <span class="material-icons">favorite_border</span>
+                  </button>
+                </div>
+                <div class="card-content">
+                  <div class="card-text">
+                    <div>Men Premium Jacket</div>
+                    <div class="card-subtitle">₹2000</div>
+                  </div>
+                  <div class="card-footer-elements">
+                    <button class="btn btn-primary background-primary">
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container card-container-shadow productlist-card">
+                <div class="card-img-container">
+                  <img
+                    class="card-img productlist-card-img"
+                    src="https://picsum.photos/300/400"
+                    alt="card image"
+                  />
+                  <button class="card-img-tag-btn">
+                    <span class="material-icons">favorite_border</span>
+                  </button>
+                </div>
+                <div class="card-content">
+                  <div class="card-text">
+                    <div>Men Premium Jacket</div>
+                    <div class="card-subtitle">₹2000</div>
+                  </div>
+                  <div class="card-footer-elements">
+                    <button class="btn btn-primary background-primary">
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container card-container-shadow productlist-card">
+                <div class="card-img-container">
+                  <img
+                    class="card-img productlist-card-img"
+                    src="https://picsum.photos/300/400"
+                    alt="card image"
+                  />
+                  <button class="card-img-tag-btn">
+                    <span class="material-icons">favorite_border</span>
+                  </button>
+                </div>
+                <div class="card-content">
+                  <div class="card-text">
+                    <div>Men Premium Jacket</div>
+                    <div class="card-subtitle">₹2000</div>
+                  </div>
+                  <div class="card-footer-elements">
+                    <button class="btn btn-primary background-primary">
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container card-container-shadow productlist-card">
+                <div class="card-img-container">
+                  <img
+                    class="card-img productlist-card-img"
+                    src="https://picsum.photos/300/400"
+                    alt="card image"
+                  />
+                  <button class="card-img-tag-btn">
+                    <span class="material-icons">favorite_border</span>
+                  </button>
+                </div>
+                <div class="card-content">
+                  <div class="card-text">
+                    <div>Men Premium Jacket</div>
+                    <div class="card-subtitle">₹2000</div>
+                  </div>
+                  <div class="card-footer-elements">
+                    <button class="btn btn-primary background-primary">
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container card-container-shadow productlist-card">
+                <div class="card-img-container">
+                  <img
+                    class="card-img productlist-card-img"
+                    src="https://picsum.photos/300/400"
+                    alt="card image"
+                  />
+                  <button class="card-img-tag-btn">
+                    <span class="material-icons">favorite_border</span>
+                  </button>
+                </div>
+                <div class="card-content">
+                  <div class="card-text">
+                    <div>Men Premium Jacket</div>
+                    <div class="card-subtitle">₹2000</div>
+                  </div>
+                  <div class="card-footer-elements">
+                    <button class="btn btn-primary background-primary">
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container card-container-shadow productlist-card">
+                <div class="card-img-container">
+                  <img
+                    class="card-img productlist-card-img"
+                    src="https://picsum.photos/300/400"
+                    alt="card image"
+                  />
+                  <button class="card-img-tag-btn">
+                    <span class="material-icons">favorite_border</span>
+                  </button>
+                </div>
+                <div class="card-content">
+                  <div class="card-text">
+                    <div>Men Premium Jacket</div>
+                    <div class="card-subtitle">₹2000</div>
+                  </div>
+                  <div class="card-footer-elements">
+                    <button class="btn btn-primary background-primary">
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container card-container-shadow productlist-card">
+                <div class="card-img-container">
+                  <img
+                    class="card-img productlist-card-img"
+                    src="https://picsum.photos/300/400"
+                    alt="card image"
+                  />
+                  <button class="card-img-tag-btn">
+                    <span class="material-icons">favorite_border</span>
+                  </button>
+                </div>
+                <div class="card-content">
+                  <div class="card-text">
+                    <div>Men Premium Jacket</div>
+                    <div class="card-subtitle">₹2000</div>
+                  </div>
+                  <div class="card-footer-elements">
+                    <button class="btn btn-primary background-primary">
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container card-container-shadow productlist-card">
+                <div class="card-img-container">
+                  <img
+                    class="card-img productlist-card-img"
+                    src="https://picsum.photos/300/400"
+                    alt="card image"
+                  />
+                  <button class="card-img-tag-btn">
+                    <span class="material-icons">favorite_border</span>
+                  </button>
+                </div>
+                <div class="card-content">
+                  <div class="card-text">
+                    <div>Men Premium Jacket</div>
+                    <div class="card-subtitle">₹2000</div>
+                  </div>
+                  <div class="card-footer-elements">
+                    <button class="btn btn-primary background-primary">
+                      Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
