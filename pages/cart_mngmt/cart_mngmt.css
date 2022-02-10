@@ -57,3 +57,8 @@
   border-top: 2px solid var(--grey-200);
   border-bottom: 2px solid var(--grey-200);
 }
+@media screen and (max-width: 750px) {
+  .cart_mngmt-content {
+    flex-direction: column;
+  }
+}
