@@ -50,14 +50,14 @@
   padding: 1rem;
 }
 .productlist-card {
-  max-width: 13rem;
+  max-width: 15rem;
 }
 .productlist-main-card-container {
   padding: 1rem 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
+  gap: 2rem;
+  justify-content: space-around;
 }
 .productlist-card-img {
   max-height: 16rem;
