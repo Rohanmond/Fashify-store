@@ -43,7 +43,7 @@
 .mngmt_cart-price-item {
   padding: 1rem 0;
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   justify-content: space-between;
 }
 .mngmt_cart-price-item:nth-of-type(1) {
