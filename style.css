@@ -4,3 +4,9 @@
 @import url("./pages/wishlist/wishlist.css");
 @import url("./pages/authentication/auth.css");
 @import url("./doc_style/doc_style.css");
+.sample {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
