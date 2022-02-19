@@ -6,6 +6,9 @@
 .wishlist-main-heading {
   padding: 1.75rem;
 }
+.wishlist-main-container {
+  margin-top: 6rem;
+}
 .wishlist-main-cart-container {
   margin: 0 auto;
   width: 90vw;
