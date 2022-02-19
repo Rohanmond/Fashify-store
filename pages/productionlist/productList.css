@@ -47,6 +47,11 @@
   top: 6rem;
   left: 0;
 }
+@media screen and (max-width: 750px) {
+  .productlist-content {
+    margin-top: 9rem;
+  }
+}
 .productlist-aside-header {
   display: flex;
   padding: 1rem 0;
