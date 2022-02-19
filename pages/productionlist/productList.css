@@ -119,4 +119,5 @@
 .productlist-card-img-tag-btn {
   grid-row: 1/2;
   grid-column: 1/4;
+  margin-right: 1.75rem;
 }
