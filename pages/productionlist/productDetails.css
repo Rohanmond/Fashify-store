@@ -34,3 +34,13 @@
   flex-grow: 1;
   text-align: center;
 }
+@media screen and (max-width: 750px) {
+  .product-details-main {
+    flex-direction: column;
+    margin-top: 9rem;
+  }
+  .product-details-text-container {
+    max-width: 20rem;
+    margin: 1rem;
+  }
+}
