@@ -40,6 +40,7 @@
   justify-content: space-evenly;
   gap: 1rem;
   align-items: center;
+  padding: 1rem;
 }
 .logout-img-container {
   max-width: 20rem;
