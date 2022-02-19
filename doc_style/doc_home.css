@@ -1,7 +1,14 @@
+.nav-mobile-up {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .home-container {
   display: flex;
   flex-direction: column;
 }
+
 .home-subheader {
   display: flex;
   justify-content: center;
@@ -59,7 +66,14 @@
     width: 25rem;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
+  .home-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
   .home-cards,
   .home-card-container {
     flex-direction: column;
@@ -68,6 +82,12 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 500px) {
+  .nav-search {
+    width: 18rem;
+  }
+}
+
 .nav-text-input {
   font-size: 1rem;
   padding: 0.5rem 0.75rem;
