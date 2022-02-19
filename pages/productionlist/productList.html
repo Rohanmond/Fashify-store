@@ -9,6 +9,18 @@
     <link rel="stylesheet" href="../../style.css" />
   </head>
   <body>
+    <div class="dd_menu">
+      <ul class="list-spaced">
+        <li class="list-spaced-item brd-rd-semi-sq">Location</li>
+        <li class="list-spaced-item brd-rd-semi-sq">Favorites</li>
+        <li class="list-spaced-item brd-rd-semi-sq">Addpeople</li>
+        <li class="list-spaced-item brd-rd-semi-sq">Settings</li>
+        <li class="list-spaced-item brd-rd-semi-sq">Downloads</li>
+        <li class="list-spaced-item brd-rd-semi-sq">
+          <a href="../authentication/logout.html">Logout</a>
+        </li>
+      </ul>
+    </div>
     <div class="productlist-container">
       <nav class="navigation home-nav productlist-nav">
         <div class="nav-mobile-up">
@@ -58,7 +70,7 @@
                 </a>
               </li>
               <li class="nav-link-item">
-                <a class="text-lg" href=""
+                <a class="text-lg profile-click-btn" href="#"
                   ><i class="fas fa-user-circle"></i
                 ></a>
               </li>
@@ -556,5 +568,13 @@
         </main>
       </div>
     </div>
+    <script>
+      const dd_menu = document.querySelector(".dd_menu");
+      const profileBtn = document.querySelector(".profile-click-btn");
+
+      profileBtn.addEventListener("click", function () {
+        dd_menu.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
