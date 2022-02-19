@@ -22,7 +22,6 @@
 .home-hero-text {
   grid-area: 2/2/3/3;
   color: var(--white-color);
-  text-decoration: underline;
 }
 .home-hero-img-btn {
   grid-area: 3/2/3/3;
