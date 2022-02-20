@@ -64,6 +64,17 @@
   border-top: 2px solid var(--grey-200);
   border-bottom: 2px solid var(--grey-200);
 }
+.cart-footer-btn-color {
+  background-color: var(--blue-400);
+  border: 2px solid var(--blue-400);
+  color: var(--white-color);
+}
+.cart_mngmt-card-footer .hover-danger:hover {
+  background-color: var(--danger-color);
+  color: var(--white-color);
+  border: 2px solid var(--danger-color);
+}
+
 @media screen and (max-width: 750px) {
   .cart_mngmt-content {
     flex-direction: column;
