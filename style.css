@@ -20,3 +20,6 @@
   border-radius: 10px;
   background: var(--secondary-color);
 }
+.text-color {
+  color: var(--text-color);
+}
