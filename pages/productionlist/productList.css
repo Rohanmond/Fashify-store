@@ -101,6 +101,10 @@
   align-self: center;
   justify-self: center;
 }
+.card-link {
+  display: flex;
+  justify-content: center;
+}
 
 .productlist-main-card-container {
   display: grid;
