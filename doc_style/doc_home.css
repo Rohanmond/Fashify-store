@@ -19,30 +19,13 @@
   padding: 1rem;
 }
 .home-hero-img-container {
-  height: 400px;
-  display: grid;
+  width: 100%;
 }
 
 .home-hero-img {
-  grid-column: 1/5;
-  grid-row: 1/5;
-}
-.home-hero-text {
-  grid-area: 2/2/3/3;
-  color: var(--white-color);
-  z-index: 9;
-}
-.home-hero-img-btn {
-  grid-area: 3/2/3/3;
-  justify-self: start;
-  align-self: start;
-  z-index: 9;
-}
-.home-hero-img {
-  height: 100%;
   object-fit: cover;
 }
-.home-text {
+.home-subheader {
   padding: 2rem;
 }
 .navigation {
