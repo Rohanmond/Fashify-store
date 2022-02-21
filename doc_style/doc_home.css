@@ -25,8 +25,8 @@
 .home-hero-img {
   object-fit: cover;
 }
-.home-subheader {
-  padding: 2rem;
+.home-subheading-text {
+  padding: 3rem;
 }
 .navigation {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
