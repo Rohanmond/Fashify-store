@@ -13,7 +13,7 @@ FashiFy Store is an Indian Fashion ecommerce company.
 - Responsive Website
 
 ### Tech Stack - 
-- ReactJs, Vanilla CSS integrated with GlexUI Component Library elements. 
+- ReactJs, Vanilla CSS integrated with [GlexUI](https://glex-ui.vercel.app/) Component Library elements. 
 
 
 ### Demo - 
