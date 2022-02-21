@@ -22,16 +22,7 @@
   height: 400px;
   display: grid;
 }
-.home-hero-img-container::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 400px;
-  width: 100%;
-  background-color: var(--black-color);
-  opacity: 0.6;
-  z-index: 1;
-}
+
 .home-hero-img {
   grid-column: 1/5;
   grid-row: 1/5;
