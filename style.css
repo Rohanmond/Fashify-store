@@ -4,6 +4,7 @@
 @import url("./pages/cart_mngmt/cart_mngmt.css");
 @import url("./pages/wishlist/wishlist.css");
 @import url("./pages/authentication/auth.css");
+@import url("./pages/checkout/checkout.css");
 @import url("./doc_style/doc_style.css");
 
 ::-webkit-scrollbar {

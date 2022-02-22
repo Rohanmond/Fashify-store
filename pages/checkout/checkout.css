@@ -1,0 +1,21 @@
+.checkout-card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  border-bottom: 2px solid var(--grey-200);
+  padding: 1rem;
+}
+.checkout-coupon-code {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+}
+.coupon-field {
+  padding: 0.2rem;
+}
+.coupon-container {
+  display: flex;
+  justify-content: center;
+}
