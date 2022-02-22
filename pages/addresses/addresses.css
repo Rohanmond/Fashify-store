@@ -12,7 +12,7 @@
   justify-content: center;
 }
 .address-input-field {
-  padding: 2rem;
+  padding: 1rem;
   border: 2px solid var(--blue-200);
   display: flex;
   border-radius: 0.25rem;
