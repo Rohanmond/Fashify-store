@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FashiFy | Cart Management</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+    <div class="dd_menu">
+      <ul class="list-spaced">
+        <li class="list-spaced-item brd-rd-semi-sq">Location</li>
+        <li class="list-spaced-item brd-rd-semi-sq">Favorites</li>
+        <li class="list-spaced-item brd-rd-semi-sq">Addpeople</li>
+        <li class="list-spaced-item brd-rd-semi-sq">Settings</li>
+        <li class="list-spaced-item brd-rd-semi-sq">Downloads</li>
+        <li class="list-spaced-item brd-rd-semi-sq">
+          <a href="../authentication/logout.html">Logout</a>
+        </li>
+      </ul>
+    </div>
+    <div class="card-mngmt_container">
+      <nav class="navigation home-nav productlist-nav">
+        <div class="nav-mobile-up">
+          <div class="nav-left">
+            <div class="nav-logo-container">
+              <a href="../../index.html" class="nav-logo-link">
+                <img
+                  class="hero-logo"
+                  src="../../src/logo/Fashify Transparent pr 2.png"
+                  alt="nav logo"
+                />
+                <small>FashiFy</small>
+              </a>
+            </div>
+          </div>
+          <div class="nav-mid nav-desktop">
+            <input
+              placeholder="search"
+              class="nav-search brd-rd-semi-sq nav-text-input"
+              type="text"
+            />
+          </div>
+          <div class="nav-right">
+            <ul class="nav-links">
+              <li class="nav-link-item">
+                <a class="text-lg profile-click-btn" href="#"
+                  ><i class="fas fa-user-circle"></i
+                ></a>
+              </li>
+              <li class="nav-link-item">
+                <a href="../wishlist/wishlist.html">
+                  <div class="badge-container">
+                    <div class="badge-icon">
+                      <span class="material-icons-outlined">
+                        favorite_border
+                      </span>
+                    </div>
+                    <div class="badge-number background-online">12</div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-link-item">
+                <a href="../cart_mngmt/cart_mngmt.html"
+                  ><div class="badge-container">
+                    <div class="badge-icon">
+                      <span class="material-icons-outlined">
+                        shopping_cart
+                      </span>
+                    </div>
+                    <div class="badge-number background-online">12</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav-mobile-down nav-mobile">
+          <input
+            placeholder="search"
+            class="nav-search brd-rd-semi-sq nav-text-input"
+            type="text"
+          />
+        </div>
+      </nav>
+      <main class="cart_mngmt-main">
+        <div class="cart_mngmt-main-heading text-align-center">
+          <h2>Checkout</h2>
+        </div>
+        <div class="checkout-mngmt-content">
+          <div class="card-container cart_mngmt-price-card brd-rd-semi-sq">
+            <div class="checkout-card-header font-wt-bold">
+              <h3 class="font-wt-light text-align-center">PRICE DETAILS</h3>
+              <div class="checkout-coupon-code">
+                <i class="fas fa-tag"></i>
+                <div class="coupon-container">
+                  <input
+                    type="text"
+                    class="coupon-field"
+                    placeholder="coupon code"
+                  />
+                  <button class="btn btn-sm btn-primary background-primary">
+                    Apply
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="mngmt_cart-price-item">
+              <p>Price (2 items)</p>
+              <p>$4999</p>
+            </div>
+            <div class="mngmt_cart-price-item">
+              <p>Discount</p>
+              <p>-$1999</p>
+            </div>
+            <div class="mngmt_cart-price-item">
+              <p>Delivery charges</p>
+              <p>-$499</p>
+            </div>
+            <div class="mngmt_cart-price-item">
+              <p class="font-wt-bold">Delivery charges</p>
+              <p class="font-wt-bold">-$499</p>
+            </div>
+            <div class="mngmt_cart-price-item">
+              <p>You will save $1999 on this order</p>
+            </div>
+            <button class="btn btn-primary background-primary brd-rd-semi-sq">
+              PLACE ORDER
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="../profile/profile.js"></script>
+  </body>
+</html>
