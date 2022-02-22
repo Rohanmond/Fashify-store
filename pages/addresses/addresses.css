@@ -12,10 +12,15 @@
   justify-content: center;
 }
 .address-input-field {
-  padding: 2rem;
+  padding: 1rem;
   border: 2px solid var(--blue-200);
   display: flex;
   border-radius: 0.25rem;
   gap: 2rem;
   align-items: center;
+}
+@media screen and (max-width: 750px) {
+  .address-main-container {
+    margin-top: 9rem;
+  }
 }
