@@ -1,0 +1,21 @@
+.address-main-container {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.address-header {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.address-input-field {
+  padding: 2rem;
+  border: 2px solid var(--blue-200);
+  display: flex;
+  border-radius: 0.25rem;
+  gap: 2rem;
+  align-items: center;
+}
