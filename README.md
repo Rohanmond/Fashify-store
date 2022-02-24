@@ -12,6 +12,7 @@ FashiFy Store is an Indian Fashion ecommerce company.
 - Product Listing page
 - Product details page
 - Cart Management Page
+- Address management page
 - Checkout page
 - Wishlist Page
 - Login Page
